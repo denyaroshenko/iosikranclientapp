@@ -13,14 +13,14 @@ import { CatalogItem } from '../components';
 
 import BackIcon from '../assets/Icons/BackIcon';
 
-import AppMetrica from 'react-native-appmetrica';
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
-AppMetrica.reportEvent('Открыта страница: Каталог кранов');
+// import AppMetrica from 'react-native-appmetrica';
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
+// AppMetrica.reportEvent('Открыта страница: Каталог кранов');
 
 const CatalogListScreen = ({ navigation }) => {
 

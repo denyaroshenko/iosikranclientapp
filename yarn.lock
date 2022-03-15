@@ -6067,11 +6067,6 @@
   dependencies:
     "prop-types" "^15.7.2"
 
-"react-native-appmetrica@^2.0.0":
-  "integrity" "sha512-WYr8yRbWrRxtIy05mKJ5KAEI5nBInlSOzuy6lTswh/9VP9wY1AiOOv8iVQ6hCXe7ax+GIyVpLU5xmvGgyZASow=="
-  "resolved" "https://registry.npmjs.org/react-native-appmetrica/-/react-native-appmetrica-2.0.0.tgz"
-  "version" "2.0.0"
-
 "react-native-codegen@^0.0.7":
   "integrity" "sha512-dwNgR8zJ3ALr480QnAmpTiqvFo+rDtq6V5oCggKhYFlRjzOmVSFn3YD41u8ltvKS5G2nQ8gCs2vReFFnRGLYng=="
   "resolved" "https://registry.npmjs.org/react-native-codegen/-/react-native-codegen-0.0.7.tgz"
@@ -6252,7 +6247,7 @@
     "escape-string-regexp" "2.0.0"
     "invariant" "2.2.4"
 
-"react-native@*", "react-native@^*", "react-native@^0.0.0-0 || 0.60 - 0.66 || 1000.0.0", "react-native@>=0.33", "react-native@>=0.50.0", "react-native@>=0.54.0", "react-native@>=0.57", "react-native@>=0.58.4", "react-native@>=0.59.0", "react-native@>=0.59.0 <1.0.x", "react-native@>=0.60", "react-native@>=0.60 <1.0.0", "react-native@>=0.65.0", "react-native@0.66.4":
+"react-native@*", "react-native@^*", "react-native@^0.0.0-0 || 0.60 - 0.66 || 1000.0.0", "react-native@>=0.33", "react-native@>=0.50.0", "react-native@>=0.54.0", "react-native@>=0.57", "react-native@>=0.58.4", "react-native@>=0.59.0", "react-native@>=0.60", "react-native@>=0.60 <1.0.0", "react-native@>=0.65.0", "react-native@0.66.4":
   "integrity" "sha512-9vx5dlSfQlKbbDtr8+xMon6qsmSu7jvjdXWZpEKh3XVKpUidbbODv7048gwVKX8YAel1egeR7hN8vzSeI6ssTw=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.66.4.tgz"
   "version" "0.66.4"

@@ -13,14 +13,14 @@ import { config } from '../config'
 
 import { DocumentListItem } from '../components';
 
-import AppMetrica from 'react-native-appmetrica';
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
-AppMetrica.reportEvent('Открыта страница: Неоплаченные счета');
+// import AppMetrica from 'react-native-appmetrica';
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
+// AppMetrica.reportEvent('Открыта страница: Неоплаченные счета');
 
 const DebtListScreen = ({ navigation, route }) => {
 

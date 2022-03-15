@@ -17,14 +17,14 @@ import ShareIcon from '../assets/Icons/ShareIcon';
 
 import Spinner from 'react-native-loading-spinner-overlay';
 
-import AppMetrica from 'react-native-appmetrica';
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
-AppMetrica.reportEvent('Открыта страница: Документ PDF');
+// import AppMetrica from 'react-native-appmetrica';
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
+// AppMetrica.reportEvent('Открыта страница: Документ PDF');
 
 const resources = {
 	file: Platform.OS === 'ios' ? 'test-pdf.pdf' : '/sdcard/Download/test-pdf.pdf',

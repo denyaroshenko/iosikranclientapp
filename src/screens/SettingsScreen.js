@@ -23,14 +23,14 @@ import { userService } from '../service/userService'
 import { removeAuthToken } from '../store/actions/token'
 const state = store.getState();
 
-import AppMetrica from 'react-native-appmetrica';
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
-AppMetrica.reportEvent('Открыта страница: Настройки');
+// import AppMetrica from 'react-native-appmetrica';
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
+// AppMetrica.reportEvent('Открыта страница: Настройки');
 
 // Элемент списка
 const Item = (props) => {

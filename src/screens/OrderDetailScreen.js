@@ -186,7 +186,7 @@ const OrderDetailScreen = ({ navigation, route }) => {
 
 					{/* История изменения заявки */}
 					<View style={[styles.orderControllerTile, { marginBottom: 15 }]}>
-						{order.events.map((item, key) => {
+						{JSON.parse(order.events).map((item, key) => {
 							return (
 								<OrderEventListItem navigation={navigation} item={item} key={key} />
 							)

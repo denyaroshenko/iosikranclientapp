@@ -24,15 +24,15 @@ import PushNotification, { Importance } from 'react-native-push-notification';
 
 
 
-import AppMetrica from 'react-native-appmetrica';
+// import AppMetrica from 'react-native-appmetrica';
 
-// Starts the statistics collection process.
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
+// // Starts the statistics collection process.
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
 
 // Стили статусбара
 StatusBar.setBackgroundColor('#FED000');

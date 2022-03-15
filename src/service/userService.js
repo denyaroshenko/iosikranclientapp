@@ -11,15 +11,15 @@ const state = store.getState();
 
 const {API_URL} = config;
 
-import AppMetrica from 'react-native-appmetrica';
+// import AppMetrica from 'react-native-appmetrica';
 
-// Starts the statistics collection process.
-AppMetrica.activate({
-  apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-  sessionTimeout: 120,
-  firstActivationAsUpdate: true,
-  installedAppCollecting: true,
-});
+// // Starts the statistics collection process.
+// AppMetrica.activate({
+//   apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+//   sessionTimeout: 120,
+//   firstActivationAsUpdate: true,
+//   installedAppCollecting: true,
+// });
 
 // Получаем данные пользователя
 const fetchCompanyInfo = id => {
@@ -63,10 +63,10 @@ function login(username, password) {
 
           // Отправляем статистику в Метрику
           if (profileId) {
-            AppMetrica.setUserProfileID(profileId); // Устанавливаем профиль пользователя в репорт
+            // AppMetrica.setUserProfileID(profileId); // Устанавливаем профиль пользователя в репорт
             AsyncStorage.setItem('AppMetricaProfileID', profileId);
           }
-          AppMetrica.reportEvent('Successful authorization'); // Отправляем событие успешной авторизации
+          // AppMetrica.reportEvent('Successful authorization'); // Отправляем событие успешной авторизации
           console.log('[AppMetrica REPORT] Successful authorization', data);
         });
 

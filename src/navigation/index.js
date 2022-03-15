@@ -11,7 +11,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import messaging from '@react-native-firebase/messaging';
-import AppMetrica from 'react-native-appmetrica';
+// import AppMetrica from 'react-native-appmetrica';
 import store from '../store/store'
 
 import {
@@ -200,7 +200,7 @@ function AppContainer(props) {
 		console.log('[USER LOGGED IN]', props.isLoggedIn);
 
 		getAppMetricaProfileIDFromLocalStorage().then(profileId => {
-			AppMetrica.setUserProfileID(profileId);
+			// AppMetrica.setUserProfileID(profileId);
 		}).catch((error) => console.warn("fetch error:", error))
 
 		// Пробуем получить userData из стоража

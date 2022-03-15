@@ -14,14 +14,14 @@ import { config } from '../config';
 
 const { API_URL } = config
 
-import AppMetrica from 'react-native-appmetrica';
-AppMetrica.activate({
-	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
-	sessionTimeout: 120,
-	firstActivationAsUpdate: true,
-	installedAppCollecting: true,
-});
-AppMetrica.reportEvent('Открыта страница: Предложения');
+// import AppMetrica from 'react-native-appmetrica';
+// AppMetrica.activate({
+// 	apiKey: '091bb5a6-12b1-42f9-923d-429852d99030',
+// 	sessionTimeout: 120,
+// 	firstActivationAsUpdate: true,
+// 	installedAppCollecting: true,
+// });
+// AppMetrica.reportEvent('Открыта страница: Предложения');
 
 const SpecialOfferListScreen = ({ navigation }) => {
 

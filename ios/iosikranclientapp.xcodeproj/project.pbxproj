@@ -45,7 +45,7 @@
 		AA34684532E4BF99BA89E529 /* Pods-iosikranclientapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosikranclientapp.release.xcconfig"; path = "Target Support Files/Pods-iosikranclientapp/Pods-iosikranclientapp.release.xcconfig"; sourceTree = "<group>"; };
 		ADD7F140F530BDFF1A5DAB5E /* Pods-iosikranclientapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosikranclientapp.debug.xcconfig"; path = "Target Support Files/Pods-iosikranclientapp/Pods-iosikranclientapp.debug.xcconfig"; sourceTree = "<group>"; };
 		DF2B6714D0350D926EA11800 /* Pods-iosikranclientapp-iosikranclientappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosikranclientapp-iosikranclientappTests.debug.xcconfig"; path = "Target Support Files/Pods-iosikranclientapp-iosikranclientappTests/Pods-iosikranclientapp-iosikranclientappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E5E206FA279D62BD00E32AFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Сертификаты для пушей/RN ios ikran client/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5E206FA279D62BD00E32AFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E5E206FD279D658400E32AFF /* iosikranclientapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = iosikranclientapp.entitlements; path = iosikranclientapp/iosikranclientapp.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -511,7 +511,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iosikranclientapp/iosikranclientapp.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 75LW9U368V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iosikranclientapp/Info.plist;
@@ -519,7 +519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -541,7 +541,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iosikranclientapp/iosikranclientapp.entitlements;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 75LW9U368V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iosikranclientapp/Info.plist;
@@ -549,7 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -595,7 +595,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -661,7 +661,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
